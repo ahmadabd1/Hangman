@@ -55,6 +55,7 @@ function App() {
       <h1>Hangman Game</h1>
       <p>Remaining Attempts: <Score remainingAttempts={remainingAttempts}/></p>
       <Solution displayWord={displayWord} />
+      <div>Hint : It's Must be a Name or Coding Language.</div>
       <div>
         {renderAlphabetButtons()}
       </div>
