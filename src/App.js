@@ -48,11 +48,12 @@ function App() {
   function refreshPage() {
     window.location.reload(false);
   }
-
+  const scoreColor = score >= 80 ? "green" : score >= 50 ? "orange" : "red";
+  
   return (
     <div className='App'>
       <h1>Hangman Game</h1>
-      <h2>Score : {score}</h2>
+      <h2>Score : <span className="score" style={{ color: scoreColor }}>{score}</span></h2>
       <p>Remaining Attempts: <Attemps remainingAttempts={remainingAttempts}/></p>
       <p>Hint : It's Must be amer Name ^.^ or Coding Language.</p>
       
