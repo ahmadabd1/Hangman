@@ -54,13 +54,18 @@ function App() {
       <h1>Hangman Game</h1>
       <h2>Score : {score}</h2>
       <p>Remaining Attempts: <Attemps remainingAttempts={remainingAttempts}/></p>
+      <p>Hint : It's Must be amer Name ^.^ or Coding Language.</p>
+      
       <Solution displayWord={displayWord} />
-      <div>Hint : It's Must be a Name or Coding Language.</div>
+      <br></br>
       <div>
         {renderAlphabetButtons()}
+        
       </div>
+      <br></br>
       {isGameOver && (
         <p>{remainingAttempts === 0 ? 'Game Over! Try again.' : 'You Win Congzzz!'}</p>
+        
       )}
       <button className='restbtn' onClick={refreshPage}>restart</button>
         <br></br><br></br>

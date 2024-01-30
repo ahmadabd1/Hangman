@@ -1,29 +1,23 @@
 .App {
-  text-align: center;
-  
-  background-color: yellow;
-}
 
+  text-align: center;
+  background-color: wheat;
+}
+h1{
+  color: orangered;
+}
+h2{
+  color: orangered;
+}
+P{
+  color: orangered ;
+
+}
 .btn{
-  background-color: rgb(217, 122, 255);
+  background-color: rgb(248, 248, 248);
 }
 
 .restbtn{
-  background-color: rgb(217, 122, 255);
-}
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  background-color: rgb(255, 255, 255);
 }
 
-
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
